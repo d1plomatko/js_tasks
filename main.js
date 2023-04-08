@@ -1,17 +1,17 @@
 // // Cоздать функцию которая принимает число и возвращает  текст как в примере:
 //     3275  —>  "3000 + 200 + 70 +5"
 
-const expanded = (num) => {
-    const arr = num.toString().split('').reverse()
-    return arr.reduce((acc, el, i) => {
-        if (el !== '0'){
-            acc.push(el + '0'.repeat(i))
-        }
-        return acc
-    }, []).reverse().join('+')
-}
-
-console.log(expanded(30275))
+// const expanded = (num) => {
+//     const arr = num.toString().split('').reverse()
+//     return arr.reduce((acc, el, i) => {
+//         if (el !== '0'){
+//             acc.push(el + '0'.repeat(i))
+//         }
+//         return acc
+//     }, []).reverse().join('+')
+// }
+//
+// console.log(expanded(30275))
 
 /*=====================================================================================*/
 
