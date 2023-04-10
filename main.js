@@ -149,3 +149,16 @@
 // }
 //
 // console.log(findMax([1,6,9,0,17,88,4,7]))
+
+// const wave = (str) => {
+//     const res = []
+//
+//     for (let i = 0; i < str.length; i++){
+//         res.push(str)
+//
+//     }
+//
+//     return res
+// }
+//
+// console.log(wave('hello'))
